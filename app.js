@@ -1,3 +1,4 @@
+
 const express = require('express');
 const _ = require('underscore');
 
@@ -9,7 +10,8 @@ var animals = {
     "bear": "growl",
     "frog": "croak",
     "lion": "roar",
-    "bird": "tweet"
+    "bird": "tweet",
+    "pikachu":"pika",
 }
 
 function getAnimal() {
